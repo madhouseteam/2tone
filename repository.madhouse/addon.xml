@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.madhouse" name="The Madhouse Repo" version="1.1.0" provider-name="Mr Madness">
+    <extension point="xbmc.addon.repository" name="The Madhouse Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/madhouseteam/madhouse/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/madhouseteam/madhouse/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/madhouseteam/madhouse/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The Madhouse Repo</summary>
+        <description>All of your maintenance needs are here, alongside some great builds</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
